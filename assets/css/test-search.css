@@ -1,0 +1,72 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px 40px;
+    /* Reduced from 20px to bring it inward */
+}
+
+.top-bar {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-and-search {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 12px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.bottom-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#rotatingArtisan {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* .fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#rotatingArtisan {
+    transition: opacity 0.3s ease-in-out;
+} */
